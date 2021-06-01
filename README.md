@@ -1,5 +1,9 @@
 # Snapcast
 
+## Changes
+
+- Alsa does not deinit in this version, this eliminates popping on the Orange Pi Zero
+
 ![Snapcast](https://raw.githubusercontent.com/badaix/snapcast/master/doc/Snapcast_800.png)
 
 **S**y**n**chronous **a**udio **p**layer
