@@ -449,12 +449,14 @@ void AlsaPlayer::uninitAlsa(bool uninit_mixer)
     if (uninit_mixer)
         uninitMixer();
 
+    /*
     if (handle_ != nullptr)
     {
         snd_pcm_drop(handle_);
         snd_pcm_close(handle_);
         handle_ = nullptr;
     }
+    */
 }
 
 
